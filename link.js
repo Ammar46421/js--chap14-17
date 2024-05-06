@@ -1,4 +1,4 @@
-// chapter 14-17
+// chapter 14-22
 var city1 = "karachi";
 var city2 = "lahore";
 var city3 = "islamabad";
@@ -26,3 +26,39 @@ else if(city !== city1 && city2 && city3 && city4 && city5){
     alert("city not found")
 }
 
+//for loop
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+
+
+// program to display the sum of natural numbers
+
+let sum = 0;
+const n = 100
+
+// loop from i = 1 to i = n
+// in each iteration, i is increased by 1
+for (let i = 1; i <= n; i++) {
+    sum += i;  // sum = sum + i
+}
+
+console.log(`sum: ${sum}`);
+
+// Output: sum: 5050
+
+//arrays
+var i;  
+var emp = new Array();  
+emp[0] = "ammar";  
+emp[1] = "asif";  
+emp[2] = "faizan";  
+  
+for (i=0;i<emp.length;i++){  
+document.write(emp[i] + "<br>");  
+}  
