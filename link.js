@@ -27,14 +27,14 @@ else if(city !== city1 && city2 && city3 && city4 && city5){
 }
 
 //for loop
-const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+const cars = ["BMW", "Volvo", "Toyota", "Honda", "Suzuki", "Audi"];
 
 let text = "";
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
 
-document.getElementById("demo").innerHTML = text;
+
 
 
 // program to display the sum of natural numbers
